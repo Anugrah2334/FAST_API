@@ -48,20 +48,6 @@ EXPOSE 80
 CMD pipenv run python3 ./main.py
 ```
 
-## Build Image Using Docker
-```sh
-docker build -t imagename:v1 .
-```
-
-## Check Docker Images
-```sh
-docker images
-```
-
-## Test Docker Image and Run Docker Container
-```sh
-docker run imagename
-```
 
 ## GitHub Actions for Docker Image Creation
 
