@@ -116,29 +116,11 @@ Docker Hub uses Personal Access Tokens (PATs) instead of passwords for authentic
 
 #### Use the Token for Login:
 ```sh
-docker login -u <your-docker-username> --password-stdin
+docker login -u <your-docker-username> 
 ```
 Then, enter the token when prompted.
 
 ---
 
-### AWS Elastic Container Registry (ECR)
-For AWS ECR, generate a token using AWS CLI:
-```sh
-aws ecr get-login-password --region <your-region> | docker login --username AWS --password-stdin <aws-account-id>.dkr.ecr.<region>.amazonaws.com
-```
 
----
 
-### Google Container Registry (GCR)
-Authenticate using:
-```sh
-gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://gcr.io
-```
-
----
-
-### Azure Container Registry (ACR)
-Authenticate using Azure CLI:
-```sh
-az acr login --name <registry-name>
