@@ -100,6 +100,8 @@ Docker Hub uses Personal Access Tokens (PATs) instead of passwords for authentic
 6. Give it a name, set the permissions, and click **Generate**.
 7. Copy the token (it will not be shown again).
 
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot1.jpg)
+
 #### Use the Token for Login:
 ```sh
 docker login -u <your-docker-username> 
