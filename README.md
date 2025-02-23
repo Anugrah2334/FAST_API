@@ -107,6 +107,7 @@ Docker Hub uses Personal Access Tokens (PATs) instead of passwords for authentic
 docker login -u <your-docker-username> 
 ```
 Then, enter the token when prompted.
+
 ![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot2.jpg)
 
 ---
