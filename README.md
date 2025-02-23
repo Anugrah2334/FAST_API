@@ -112,6 +112,7 @@ Then, enter the token when prompted.
 
 #### Add the Repository secret:
 Go to the Settings--> Secrets and Variables--> Actions--> Create New Repository Secrets contaning the Docker Hub username and Docker Hub password that contains the Token generated
+
 ![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot3.jpg)
 
 #### Steps to push the .github folder and files in your GitHub Repository
@@ -152,6 +153,7 @@ git push -u origin main
 ![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot9.jpg)
 
 2. Now check you Docker Hub account. The images will be created in your account.
+
 ![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot10.jpg)
 
 ---
