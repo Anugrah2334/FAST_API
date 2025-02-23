@@ -1,4 +1,4 @@
-# FastAPI-Dockerize
+# Create Docker image of fastapi api server using github actions
 
 ## Python Server
 
@@ -110,7 +110,51 @@ Then, enter the token when prompted.
 
 ![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot2.jpg)
 
+#### Add the Repository secret:
+Go to the Settings--> Secrets and Variables--> Actions--> Create New Repository Secrets contaning the Docker Hub username and Docker Hub password that contains the Token generated
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot3.jpg)
+
+#### Steps to push the .github folder and files in your GitHub Repository
+1. Go to the Terminal and run the command to initialize git
+```sh
+git init
+```
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot4.jpg)
+
+2. Add your remote repository
+```sh
+git remote add origin <your-github-repo-url>
+```
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot5.jpg)
+
+3. Add files for the commit
+```sh
+git add file-name
+```
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot6.jpg)
+
+4. Commit the changes
+```sh
+git commit -m "Added files"
+```
+
+5. Push the files to github
+```sh
+git push -u origin main
+```
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot7.jpg)
+
+#### Check that the image has been build or not?
+1. Go to the Repository--> Actions Tab. You will see that 1 workflow will be running. Wait unitl it build successfully.
+
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot8.jpg)
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot9.jpg)
+
+2. Now check you Docker Hub account. The images will be created in your account.
+![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot10.jpg)
+
 ---
+
 
 
 
